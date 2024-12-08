@@ -44,8 +44,59 @@ section{
 .html{
     width: 20%;
     background-color: aqua;
+    animation: animation1 .60s ease-in-out forwards;
+}
+.css{
+    width: 20%;
+    background-color: rgb(39, 170, 28);
+    animation: animation2 .60s ease-in-out forwards;
+}
+.JavaScrip{
+    width: 20%;
+    background-color: rgb(251, 255, 0);
+    animation: animation3 .60s ease-in-out forwards;
+}
+.PHP{
+    width: 20%;
+    background-color: rgb(4, 0, 255);
+    animation: animation4 .60s ease-in-out forwards;
 }
 
 @keyframes animation1{
-    
+    0%{
+        width: 0;
+        margin-left: -50px;
+    }
+    100%{
+        width: 20%;
+    }
+}
+
+@keyframes animation2{
+    0%{
+        width: 0;
+        margin-left: -50px;
+    }
+    100%{
+        width: 14%;
+    }
+}
+
+@keyframes animation3{
+    0%{
+        width: 0;
+        margin-left: -50px;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes animation4{
+    0%{
+        width: 0;
+        margin-left: -50px;
+    }
+    100%{
+        width: 60%;
+    }
 }
